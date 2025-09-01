@@ -18,6 +18,11 @@ export default {
 			}
 		},
 		extend: {
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)', 
+				'card': 'var(--shadow-card)'
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
